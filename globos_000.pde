@@ -18,6 +18,10 @@ class Globo
   void dibujate()
   {
       push();
+      stroke(255,0,0);
+      ellipse(x,y,100,100);
+      pop();  
+      push();
       fill(0,255,0);
       ellipse(x,y,100,100);
       pop();
